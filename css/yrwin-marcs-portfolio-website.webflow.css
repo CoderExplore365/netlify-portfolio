@@ -23,6 +23,7 @@
 }
 
 body {
+  overflow: scroll !important;
   color: #1a1b1f;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
