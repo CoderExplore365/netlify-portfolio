@@ -263,6 +263,12 @@ figcaption {
   margin-bottom: 5px;
 }
 
+.Middle-title {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
 .section {
   background-color: #4286e5;
   margin-left: 30px;
