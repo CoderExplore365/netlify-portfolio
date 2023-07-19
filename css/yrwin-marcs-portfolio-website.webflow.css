@@ -265,8 +265,11 @@ figcaption {
 
 .Middle-title {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   text-decoration: underline;
+}
+.Project-section {
+  background-color: #f4f4f4;
 }
 
 .section {
