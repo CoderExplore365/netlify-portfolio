@@ -272,6 +272,12 @@ figcaption {
   background-color: #f4f4f4;
 }
 
+.section-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .section {
   background-color: #4286e5;
   margin-left: 30px;
