@@ -276,9 +276,32 @@ figcaption {
   background-color: #4286e5;
   margin-left: 30px;
   margin-right: 30px;
+  justify-content: center;
 }
 
+.section-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  justify-content: center;
+}
 
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+  background-color: #000;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 .section.cc-contact {
@@ -1234,17 +1257,7 @@ figcaption {
     margin-right: 30px;
   }
 
-  .video-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .vertical {
-    display: flex;
-    flex-direction: column;
-  }
-
+  
   .section.cc-contact {
     padding: 15px;
   }
